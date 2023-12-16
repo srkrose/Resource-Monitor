@@ -1,2 +1,2 @@
-# Status-Monitor
-Status monitoring system for WHM cPanel
+# Resource-Overutilization-Monitor
+Resource overutilization monitoring system for WHM cPanel
