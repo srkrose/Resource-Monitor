@@ -3,5 +3,9 @@
 X X X X X sudo sh /home/sample/scripts/remove/rmvoldlogs.sh > /dev/null 2>&1
 X X X X X sudo sh /home/sample/scripts/remove/rmvtemp.sh > /dev/null 2>&1
 
+X X X X X sudo sh /home/sample/scripts/status/dfcheck.sh > /dev/null 2>&1
+X X X X X sudo sh /home/sample/scripts/status/bwcheck.sh > /dev/null 2>&1
+X X X X X sudo sh /home/sample/scripts/status/fccheck.sh > /dev/null 2>&1
+
 X X X X X sudo sh /home/sample/scripts/status/lavgprocess.sh > /dev/null 2>&1
 X X X X X sudo sh /home/sample/scripts/status/memprocess.sh > /dev/null 2>&1
