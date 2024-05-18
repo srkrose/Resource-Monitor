@@ -14,7 +14,7 @@ function fc_check() {
 
 		printf "%-13s %-11s %-13s\n" "$date" "$ctime" "$fcount" >>$svrlogs/status/fccheck_$logtime.txt
 
-		if [ $fcount -gt 25000000 ]; then
+		if [ $fcount -gt 30000000 ]; then
 			content=$(echo "File Count: $fcount - LIMIT EXCEEDED")
 
 			send_sms
